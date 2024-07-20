@@ -1,42 +1,138 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+      padding-top: 0px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+body {
+    line-height: inherit;
   }
-  to {
-    transform: rotate(360deg);
+
+.footer-columns {
+    align-items: flex-start;
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 4%;
+}
+
+.column1 {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+}
+.child {
+    display: flex;
+    flex-direction: row;
+}
+
+h4,.icon{
+    box-sizing: border-box;
+    color: #f76f32;
+    font-family: GilroyBold-☞,sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.arr {
+    flex-shrink: 0;
+    height: 12.997px;
+    width: 12.997px;
+}
+
+img, video {
+    height: auto;
+    max-width: 100%;
+}
+
+audio, canvas, embed, iframe, img, object, svg, video {
+    display: block;
+    vertical-align: middle;
+}
+
+.home {
+    color: #3d3d3d;
+    flex-wrap: wrap;
+    font-family: GilroyRegular-☞,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 13px;
+    margin-bottom: 4%;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.address, .mail {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.whitefield-bengaluru-560066 {
+    color: #3d3d3d;
+    font-family: GilroyRegular-☞,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    text-align: left;
+}
+
+.whitefield-bengaluru-560066, .whitefield-bengaluru-560066 * {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.mail {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    display: flex;
+}
+.column2{
+    padding: 0px 30px;
+
+}
+.icon{
+    margin: 0px 5px;
+}
+
+.space{
+    margin: 3px 0px;
+}
+#footer-image{
+    height: 100px;
+    width: 100%;
+    background-image: url(./assets/orange-gold-footer-footer-design-element-free-png.webp);
+    background-position: center;
+}
+.centered-text {
+    color:black;
+    left: 50%;
+    padding: 5px 10px;
+    position: relative;
+    text-align: center;
+    top: -50px;
+    transform: translate(-50%,-50%);
+    z-index: +5;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+  
